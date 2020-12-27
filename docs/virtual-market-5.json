@@ -1,0 +1,39 @@
+[
+	{
+		"group": "WorldBeyond",
+		"locations": ["Entrance", "Day", "Evening", "Night", "SkyCubeL", "SkyCubeR", "Sky Showcase"]
+	},
+	{
+		"group": "Default Cube",
+		"locations": [ "DC-01", "DC-02", "DC-03", "DC-04", "DC-05", "DC-06", "DC-07", "DC-08" ]
+	},
+	{
+		"group": "Virtual Showcase",
+		"locations": [ "sapphire stage", "ruby stage", "citrine stage", "tourmaline stage", "amethyst stage" ]
+	},
+	{
+		"group": "Isekai Marché: Origin Fiesta - 祝祭のマルシェ",
+		"locations": [ "Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7" ]
+	},
+	{
+		"group": "Metekolebka - メテコレプカ",
+		"locations": [ "Foresteltov-キギステルトフ", "Blasteltov-メラステルトフ", "Splasteltov-ビチャステルトフ",
+			"Tempesteltov-ビュウステルトフ" ]
+	},
+	{
+		"group": "Orbital - オービタル",
+		"locations": [ "01", "02", "03", "04", "05", "06" ]
+	},
+	{
+		"group": "CurioCity - キュリオシティ",
+		"locations": [ "Interest-興味", "Surprise-驚愕", "Tranquil-平静" ]
+	},
+	{
+		"group": "Udon Cube",
+		"locations": [ "UC-0J", "UC-0E" ]
+	},
+	{
+		"group": "MIYABI",
+		"locations": [ "MIYABI" ]
+	}
+]

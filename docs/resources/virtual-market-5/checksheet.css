@@ -1,0 +1,90 @@
+
+@charset "UTF-8";
+@namespace url("http://www.w3.org/1999/xhtml");
+
+h1 {
+	display: none;
+}
+
+main {
+	width: 1600px;
+	height: 1400px;
+	background: url("checksheet.jpg");
+	position: relative;
+
+	--column: 8.68em;
+	--row: 9.22em;
+}
+
+main > dl {
+	position: relative;
+	top: 11.5em;
+	left: 19em;
+}
+
+main > dl > dd > ul {
+	display: flex;
+}
+
+main > dl > dd > ul > li {
+	width: var(--column);
+	height: var(--row);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main label {
+	color: transparent;
+	display: block;
+	width: 7em;
+	height: 7em;
+	border-radius: 50%;
+	border: solid 1em transparent;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+main label:hover {
+	border-color: #FFAAAAAA;
+}
+
+main :checked + label {
+	border-color: #FF4444EE;
+}
+
+dd {
+	margin-left: unset;
+}
+
+ul {
+	padding-left: unset;
+}
+
+main > dl > dt,
+main input {
+	display: none;
+}
+
+[data-location="Entrance"] {
+	position: absolute;
+	left: calc(var(--column) * 8);
+}
+
+[data-location="Entrance"] label {
+	display: flex;
+	color: #BBBBBB;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+
+[data-location="Entrance"] :not(:hover):not(:checked) + label {
+	border-color: #BBBBBB;
+}
+
+[data-group="MIYABI"] {
+	position: absolute;
+	top: calc(var(--row) * 7);
+	left: calc(var(--column) * 5);
+}
