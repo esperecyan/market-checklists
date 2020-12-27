@@ -8,8 +8,10 @@ h1 {
 
 main {
 	width: 1600px;
-	height: 1400px;
-	background: url("checksheet.jpg");
+	height: calc(1400px + 5em + 800px);
+	background:
+		url("checksheet.jpg") top no-repeat,
+		url("checksheet-quest.jpg") bottom no-repeat;
 	position: relative;
 
 	--column: 8.68em;
@@ -87,4 +89,68 @@ main input {
 	position: absolute;
 	top: calc(var(--row) * 7);
 	left: calc(var(--column) * 5);
+}
+
+[data-group="MIYABI"] label::after {
+	/* Quest */
+	content: "";
+	display: block;
+	position: absolute;
+	width: 8em;
+	height: 8em;
+	top: 53em;
+	left: -40em;
+	border: inherit;
+	border-radius: inherit;
+}
+
+[data-group="Quest"] {
+	position: absolute;
+	top: 93.5em;
+	left: 3.5em;
+	--row: 11.5em;
+	--column: 12em;
+	--right-panel-left: 50em;
+	--right-panel-top: 6.5em;
+	--right-panel-row: 12em;
+}
+
+[data-group="Quest"] li {
+	position: absolute;
+	width: 10em;
+	height: 10em;
+}
+
+[data-group="Quest"] label {
+	width: 100%;
+	height: 100%;
+}
+
+[data-location="Kowloon Empire Sanban Boulevard 1"] {
+	top: var(--row);
+}
+
+[data-location="Kowloon Empire Sanban Boulevard 2"] {
+	top: var(--row);
+	left: var(--column);
+}
+
+[data-location="Pretty Pop Party - Pastel 1"] {
+	top: calc(var(--right-panel-top));
+	left: var(--right-panel-left);
+}
+
+[data-location="Pretty Pop Party - Pastel 2"] {
+	top: calc(var(--right-panel-top));
+	left: calc(var(--right-panel-left) + var(--column));
+}
+
+[data-location="Pretty Pop Party - Vivid 1"] {
+	top: calc(var(--right-panel-top) + var(--right-panel-row));
+	left: var(--right-panel-left);
+}
+
+[data-location="Pretty Pop Party - Vivid 2"] {
+	top: calc(var(--right-panel-top) + var(--right-panel-row));
+	left: calc(var(--right-panel-left) + var(--column));
 }

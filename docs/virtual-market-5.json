@@ -35,5 +35,12 @@
 	{
 		"group": "MIYABI",
 		"locations": [ "MIYABI" ]
+	},
+	{
+		"group": "Quest",
+		"locations": [ "Quest Entrance",
+			"Kowloon Empire Sanban Boulevard 1", "Kowloon Empire Sanban Boulevard 2",
+			"Pretty Pop Party - Pastel 1", "Pretty Pop Party - Pastel 2",
+			"Pretty Pop Party - Vivid 1", "Pretty Pop Party - Vivid 2" ]
 	}
 ]
