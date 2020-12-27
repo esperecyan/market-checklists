@@ -1,0 +1,7 @@
+{
+	"private": true,
+	"devDependencies": {
+		"@esperecyan/eslint-config": "^1.0.0",
+		"eslint": "^7.16.0"
+	}
+}
