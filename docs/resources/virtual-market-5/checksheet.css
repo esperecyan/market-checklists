@@ -62,6 +62,7 @@ dd {
 
 ul {
 	padding-left: unset;
+	margin: unset; /* Google Chrome */
 }
 
 main > dl > dt,
