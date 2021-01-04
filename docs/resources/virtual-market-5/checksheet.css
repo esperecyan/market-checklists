@@ -2,16 +2,26 @@
 @charset "UTF-8";
 @namespace url("http://www.w3.org/1999/xhtml");
 
+body {
+	margin: unset;
+	--margin: 1em;
+}
+
 h1 {
 	display: none;
 }
 
+body > * {
+	margin: var(--margin);
+}
+
 main {
-	width: 1600px;
-	height: calc(1400px + 5em + 800px);
+	--first-sheet-height: 1400px;
+	width: calc(1600px + var(--margin));
+	height: calc(var(--first-sheet-height) + var(--margin) + 800px);
 	background:
-		url("checksheet.jpg") top no-repeat,
-		url("checksheet-quest.jpg") bottom no-repeat;
+		url("checksheet.jpg") top left no-repeat,
+		url("checksheet-quest.jpg") bottom left no-repeat;
 	position: relative;
 
 	--column: 8.68em;
@@ -19,9 +29,11 @@ main {
 }
 
 main > dl {
-	position: relative;
+	margin: unset;
+	position: absolute;
 	top: 11.5em;
 	left: 19em;
+	right: 0;
 }
 
 main > dl > dd > ul {
@@ -100,7 +112,7 @@ main input {
 	position: absolute;
 	width: 8em;
 	height: 8em;
-	top: 53em;
+	top: calc(var(--margin) + 48em);
 	left: -40em;
 	border: inherit;
 	border-radius: inherit;
@@ -113,7 +125,7 @@ main input {
 
 [data-group="Quest"] {
 	position: absolute;
-	top: 93.5em;
+	top: calc(var(--first-sheet-height) + var(--margin) + 1em);
 	left: 3.5em;
 	--row: 11.5em;
 	--column: 12em;
