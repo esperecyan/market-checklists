@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@namespace url("http://www.w3.org/1999/xhtml");
+
+ul {
+	list-style: none;
+	font-size: 1.5em;
+	padding-left: 0.5em;
+}
+
+li {
+	margin: 0.5em;
+}
+
+input {
+	transform: scale(2);
+	margin-right: 0.5em;
+}
+
+label::before {
+	padding-right: 0.2em;
+}
+
+[data-location="Penguin"] label::before {
+	content: "🐧";
+}
+
+
+[data-location="Sheep"] label::before {
+	content: "🐑";
+}
+
+
+[data-location="Eagle"] label::before {
+	content: "🦅";
+}
+
+
+[data-location="Rabbit"] label::before {
+	content: "🐇";
+}
+
+
+[data-location="Elephant"] label::before {
+	content: "🐘";
+}
+
+
+[data-location="Cat"] label::before {
+	content: "🐈";
+}
+
+
+[data-location="Cheetah"] label::before {
+	content: "🐆";
+}
+
+
+[data-location="Zebra"] label::before {
+	content: "🦓";
+}
+
+
+[data-location="Dog"] label::before {
+	content: "🐕";
+}
+
+
+[data-location="Fox"] label::before {
+	content: "🦊";
+}
+
+
+[data-location="Seal"] label::before {
+	content: "🦦";
+}
+
+
+[data-location="Owl"] label::before {
+	content: "🦉";
+}
