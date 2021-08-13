@@ -1,0 +1,30 @@
+[
+	{
+		"group": "",
+		"locations": ["World Festi-VR “Core”", "Japan Festi-VR “En-Nichi”"]
+	},
+	{
+		"group": "Carayol - カラヨル",
+		"locations": ["Sand Poem - 砂の詩", "Wind Chorus - 風の唄"]
+	},
+	{
+		"group": "Laguna - ラグーナ",
+		"locations": ["Fiore - フィオーレ", "Conchiglie - コンキリエ"]
+	},
+	{
+		"group": "Kuja Market - 九蛇之市",
+		"locations": ["Greed - 欲", "Obsession - 執"]
+	},
+	{
+		"group": "VketMall Proto",
+		"locations": [
+			"Furry Fury", "Jack'n Box", "Argento",
+			"Eisenburg", "Ratatoskr", "Anne Nielsen",
+			"MORNING GLORY", "Open Closet", "Funky Picky Monkeys",
+			"Colorful Cafe", "Tracy & Percy", "Kemomimi Girls - けもみみっこ",
+			"Three Thousand Worlds - 三千世界", "Garage. avatars", "Garage. worlds",
+			"Yake - 牙科", "Philip's Sheep", "Scratch Road",
+			"Goshikiya - 五色屋", "Twinkle-Twinkle"
+		]
+	}
+]
