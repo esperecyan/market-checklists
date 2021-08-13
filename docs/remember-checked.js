@@ -4,11 +4,11 @@ import * as Databases from './databases.js';
 const DB_NAME = 'market-checklists';
 const STORE_NAME = 'market-checklists';
 
-const key = location.pathname.replace(/\.[^.]+$/, '');
+const key = location.pathname.replace(/\/(index\.html)?$/, '');
 
 const checkboxes = document.getElementsByTagName('input');
 
-fetch(key + '.json').then(async function (response) {
+fetch('locations.json').then(async function (response) {
 	let html = '<dl>';
 	for (const { group, locations } of await response.json()) {
 		html += h`
