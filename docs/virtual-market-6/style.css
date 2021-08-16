@@ -1,6 +1,17 @@
 @charset "UTF-8";
 @namespace url("http://www.w3.org/1999/xhtml");
 
+dl {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: start;
+}
+
+dt,
+ul {
+	grid-column: span 2;
+}
+
 dt {
 	font-size: 2em;
 }
@@ -9,20 +20,33 @@ dt:not(:first-of-type) {
 	margin-top: 1em;
 }
 
+dd,
+ul:not([data-group^="VketMall"]) {
+	display: contents;
+}
+
+ul,
+ul:not([data-group^="VketMall"]) li:first-of-type {
+	margin-left: 2.5em;
+}
+
 ul {
 	list-style: none;
 	font-size: 1.5em;
-	padding-left: 0.5em;
+	display: grid;
+	padding-left: unset;
+	grid-template-columns: auto auto;
+	justify-content: start;
 }
 
-ul[data-group="VketMall Proto"] {
+ul[data-group^="VketMall Proto Fair 1"] {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	justify-content: start;
 }
 
 li {
-	margin: 0.5em;
+	margin: 0.5em 0.5em 0.5em 0;
 }
 
 input {

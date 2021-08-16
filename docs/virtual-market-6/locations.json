@@ -16,15 +16,27 @@
 		"locations": ["Greed - 欲", "Obsession - 執"]
 	},
 	{
-		"group": "VketMall Proto",
+		"group": "VketMall Proto Fair 1 Entrance EAST - フェア1 エントランス EAST",
 		"locations": [
-			"Furry Fury", "Jack'n Box", "Argento",
-			"Eisenburg", "Ratatoskr", "Anne Nielsen",
-			"MORNING GLORY", "Open Closet", "Funky Picky Monkeys",
-			"Colorful Cafe", "Tracy & Percy", "Kemomimi Girls - けもみみっこ",
-			"Three Thousand Worlds - 三千世界", "Garage. avatars", "Garage. worlds",
-			"Yake - 牙科", "Philip's Sheep", "Scratch Road",
-			"Goshikiya - 五色屋", "Twinkle-Twinkle"
+			"Goshikiya - 五色屋", "MORNING GLORY", "Furry Fury",
+			"Tracy & Percy", "Garage. avatars"
+		]
+	},
+	{
+		"group": "VketMall Proto Fair 1 Entrance WEST - フェア1 エントランス WEST",
+		"locations": [
+			"Argento", "Open Closet", "Scratch Road",
+			"Three Thousand Worlds - 三千世界", "Jack'n Box"
+		]
+	},
+	{
+		"group": "VketMall Proto Fair 2 - フェア2",
+		"locations": [
+			"Ratatoskr", "Kemomimi Girls - けもみみっこ",
+			"Colorful Cafe", "Garage. worlds",
+			"Eisenburg", "Yake - 牙科",
+			"Twinkle-Twinkle", "Anne Nielsen",
+			"Funky Picky Monkeys", "Philip's Sheep"
 		]
 	}
 ]
