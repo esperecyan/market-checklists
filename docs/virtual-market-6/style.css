@@ -45,6 +45,14 @@ ul[data-group^="VketMall Proto Fair 1"] {
 	justify-content: start;
 }
 
+ul[data-group^="VketMall Proto Fair 1"] li:first-of-type {
+	grid-column: span 3;
+}
+
+ul[data-group^="VketMall Proto Fair 2"] li:nth-of-type(-n+2) {
+	grid-column: span 2;
+}
+
 li {
 	margin: 0.5em 0.5em 0.5em 0;
 }
