@@ -32,14 +32,18 @@
 		]
 	},
 	{
-		"group": "VketMall Proto Fair 2",
+		"group": "VketMall Proto Fair 2 EAST",
 		"locations": [
 			"VketMall Proto Fair 2 Entrance EAST - フェア2 エントランス EAST",
+			"Ratatoskr", "Kemomimi Girls - けもみみっこ", "Colorful Cafe",
+			"Garage. worlds", "Eisenburg"
+		]
+	},
+	{
+		"group": "VketMall Proto Fair 2 WEST",
+		"locations": [
 			"VketMall Proto Fair 2 Entrance WEST - フェア2 エントランス WEST",
-			"Ratatoskr", "Kemomimi Girls - けもみみっこ",
-			"Colorful Cafe", "Garage. worlds",
-			"Eisenburg", "Yake - 牙科",
-			"Twinkle-Twinkle", "Anne Nielsen",
+			"Yake - 牙科", "Twinkle-Twinkle", "Anne Nielsen",
 			"Funky Picky Monkeys", "Philip's Sheep"
 		]
 	}
