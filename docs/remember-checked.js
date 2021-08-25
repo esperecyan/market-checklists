@@ -12,9 +12,9 @@ fetch('locations.json').then(async function (response) {
 	let html = '<dl>';
 	for (const { group, locations } of await response.json()) {
 		html += h`
-			<dt>${group}</dt>
-			<dd>
-				<ul data-group="${group}">`;
+			<dt data-group="${group}">${group}</dt>
+			<dd data-group="${group}">
+				<ul>`;
 		for (const location of locations) {
 			const id = Math.random().toString();
 			html += h`

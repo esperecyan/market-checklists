@@ -1,59 +1,123 @@
 @charset "UTF-8";
 @namespace url("http://www.w3.org/1999/xhtml");
 
-dl {
-	display: grid;
-	grid-template-columns: auto auto;
-	justify-content: start;
+:root {
+	--margin: 1em;
+	--padding-top: 181px;
+	--padding-left: 730px;
+	--stamp-size: 153px;
+	--column: 188px;
+	--row: 197.7px;
 }
 
-dt,
+body {
+	margin: unset;
+}
+
+dd {
+	margin-left: unset;
+}
+
 ul {
-	grid-column: span 2;
+	padding-left: unset;
+	margin: unset; /* Google Chrome */
 }
 
-dt {
+h1,
+dt:not([data-group^="VketMall Proto Fair"]),
+dd:not([data-group^="VketMall Proto Fair"]) input {
+	display: none;
+}
+
+body > * {
+	margin: var(--margin);
+}
+
+main {
+	width: calc(1600px + var(--margin));
+	background: url("checksheet.jpg") top left no-repeat;
+}
+
+dl {
+	margin: unset;
+	right: 0;
+}
+
+dd:first-of-type {
+	padding-top: var(--padding-top);
+}
+
+dd:not([data-group^="VketMall Proto Fair"]) {
+	margin-left: var(--padding-left);
+}
+
+dd:not([data-group^="VketMall Proto Fair"]) ul {
+	display: flex;
+}
+
+dd:not([data-group^="VketMall Proto Fair"]) > ul > li {
+	width: var(--column);
+	height: var(--row);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+dd:not([data-group^="VketMall Proto Fair"]) label {
+	color: transparent;
+	display: block;
+	width: var(--stamp-size);
+	height: var(--stamp-size);
+	border-radius: 50%;
+	border: solid 1em transparent;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+dd:not([data-group^="VketMall Proto Fair"]) label:hover {
+	border-color: #FFAAAAAA;
+}
+
+dd:not([data-group^="VketMall Proto Fair"]) :checked + label {
+	background: url("../virtual-market-5/stamp1.png") center/contain no-repeat border-box;
+	border-color: transparent;
+}
+
+dd[data-group="VketMall Proto"] :checked + label {
+	background-image: url("../virtual-market-5/stamp2.png");
+}
+
+dd[data-group="VketMall Proto"] {
+	margin-bottom: 16px;
+}
+
+
+
+
+dt[data-group^="VketMall Proto Fair"] {
 	font-size: 2em;
+	--gap: 2em;
+	margin-top: var(--gap);
 }
 
-dt:not(:first-of-type) {
-	margin-top: 1em;
-}
-
-dd,
-ul:not([data-group^="VketMall"]) {
-	display: contents;
-}
-
-ul,
-ul:not([data-group^="VketMall"]) li:first-of-type {
+dd[data-group^="VketMall Proto Fair"] ul {
 	margin-left: 2.5em;
 }
 
-ul {
+dd[data-group^="VketMall Proto Fair"] ul {
 	list-style: none;
 	font-size: 1.5em;
 	display: grid;
 	padding-left: unset;
-	grid-template-columns: auto auto;
-	justify-content: start;
-}
-
-ul[data-group^="VketMall"] {
-	display: grid;
 	grid-template-columns: auto auto auto;
 	justify-content: start;
 }
 
-ul[data-group^="VketMall"] li:first-of-type {
-	grid-column: span 3;
-}
-
-li {
+dd[data-group^="VketMall Proto Fair"] li {
 	margin: 0.5em 0.5em 0.5em 0;
 }
 
-input {
+dd[data-group^="VketMall Proto Fair"] input {
 	transform: scale(2);
 	margin-right: 0.5em;
 }

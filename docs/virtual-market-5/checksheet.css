@@ -99,13 +99,13 @@ main input {
 	border-color: #BBBBBB;
 }
 
-[data-group="MIYABI"] {
+dd[data-group="MIYABI"] ul {
 	position: absolute;
 	top: calc(var(--row) * 7);
 	left: calc(var(--column) * 5);
 }
 
-[data-group="MIYABI"] label::after {
+dd[data-group="MIYABI"] label::after {
 	/* Quest */
 	content: "";
 	display: block;
@@ -118,12 +118,12 @@ main input {
 	border-radius: inherit;
 }
 
-[data-group="MIYABI"] :checked + label::after {
+dd[data-group="MIYABI"] :checked + label::after {
 	/* Quest */
 	background: url("stamp2.png") center/contain no-repeat border-box;
 }
 
-[data-group="Quest"] {
+dd[data-group="Quest"] ul {
 	position: absolute;
 	top: calc(var(--first-sheet-height) + var(--margin) + 1em);
 	left: 3.5em;
@@ -134,18 +134,18 @@ main input {
 	--right-panel-row: 12em;
 }
 
-[data-group="Quest"] li {
+dd[data-group="Quest"] li {
 	position: absolute;
 	width: 10em;
 	height: 10em;
 }
 
-[data-group="Quest"] label {
+dd[data-group="Quest"] label {
 	width: 100%;
 	height: 100%;
 }
 
-[data-group="Quest"] :checked + label {
+dd[data-group="Quest"] :checked + label {
 	background-image: url("stamp2.png");
 }
 

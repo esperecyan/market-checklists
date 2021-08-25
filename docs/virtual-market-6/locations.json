@@ -1,7 +1,11 @@
 [
 	{
-		"group": "",
-		"locations": ["World Festi-VR “Core”", "Japan Festi-VR “En-Nichi”"]
+		"group": "World Festi-VR “Core”",
+		"locations": ["World Festi-VR “Core”"]
+	},
+	{
+		"group": "Japan Festi-VR “En-Nichi”",
+		"locations": ["Japan Festi-VR “En-Nichi”"]
 	},
 	{
 		"group": "Carayol - カラヨル",
@@ -16,9 +20,15 @@
 		"locations": ["Greed - 欲", "Obsession - 執"]
 	},
 	{
-		"group": "VketMall Proto Fair 1 EAST",
+		"group": "VketMall Proto",
 		"locations": [
 			"VketMall Proto Fair 1 Entrance EAST - フェア1 エントランス EAST",
+			"VketMall Proto Fair 1 Entrance WEST - フェア1 エントランス WEST"
+		]
+	},
+	{
+		"group": "VketMall Proto Fair 1 EAST",
+		"locations": [
 			"Goshikiya - 五色屋", "MORNING GLORY", "Furry Fury",
 			"Tracy & Percy", "Garage. avatars"
 		]
@@ -26,7 +36,6 @@
 	{
 		"group": "VketMall Proto Fair 1 WEST",
 		"locations": [
-			"VketMall Proto Fair 1 Entrance WEST - フェア1 エントランス WEST",
 			"Argento", "Open Closet", "Scratch Road",
 			"Three Thousand Worlds - 三千世界", "Jack'n Box"
 		]
@@ -34,7 +43,6 @@
 	{
 		"group": "VketMall Proto Fair 2 EAST",
 		"locations": [
-			"VketMall Proto Fair 2 Entrance EAST - フェア2 エントランス EAST",
 			"Ratatoskr", "Kemomimi Girls - けもみみっこ", "Colorful Cafe",
 			"Garage. worlds", "Eisenburg"
 		]
@@ -42,7 +50,6 @@
 	{
 		"group": "VketMall Proto Fair 2 WEST",
 		"locations": [
-			"VketMall Proto Fair 2 Entrance WEST - フェア2 エントランス WEST",
 			"Yake - 牙科", "Twinkle-Twinkle", "Anne Nielsen",
 			"Funky Picky Monkeys", "Philip's Sheep"
 		]
