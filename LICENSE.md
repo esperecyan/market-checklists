@@ -12,7 +12,7 @@
 
 © VirtualMarket
 
-# [docs/virtual-market-5/stamp1.png](docs/virtual-market-5/stamp1.png)<br>[docs/virtual-market-5/stamp2.png](docs/resources/virtual-market-5/stamp2.png)
+# [docs/virtual-market-5/stamp1.png](docs/virtual-market-5/stamp1.png)<br>[docs/virtual-market-5/stamp2.png](docs/virtual-market-5/stamp2.png)
 
 こちらのファイルは『Vケット5配信用公式配布素材』の一部を加工したもので、問い合わせにて本使用方法に問題がないこと、および加工が可能なことを確認しております。
 こちらの加工したファイルは、元のライセンスを継承いたします。
