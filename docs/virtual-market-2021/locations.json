@@ -1,0 +1,46 @@
+[
+	{
+		"group": "Vket City",
+		"locations": ["VketCity -Akihabara-", "VketCity -Shibuya-"]
+	},
+	{
+		"group": "WinterClausMall",
+		"locations": ["WinterClausMall"]
+	},
+	{
+		"group": "Vket Academy “Electro-charged School Festival!” - 私立Vket学園“電市祭”",
+		"locations": ["Day - 昼の部", "Night - 夜の部"]
+	},
+	{
+		"group": "Almerea: The Town of New Beginnings - はじまりの街アルメア",
+		"locations": ["Adventurous spring - 旅立ちの春", "Season of harvest - 麦秋の迎え"]
+	},
+	{
+		"group": "Petalchime Capital Aulschnelule - 花鐘の蒸都アウルシュネルゥレ",
+		"locations": ["Petalchime Capital Aulschnelule - 花鐘の蒸都アウルシュネルゥレ", "Spildsubmara: The Abandoned Seafloor City - 海底残街スピスバマラ"]
+	},
+	{
+		"group": "Valhalla of Iron Ravens - 鉄鴉の戦場バトルフィールドオブマキナ",
+		"locations": ["Machina: The Steel Arena - 鉄火武闘マキナアリーナ", "Rock Bottom: The Shanty Slums - 貧窮街ボトム"]
+	},
+	{
+		"group": "Snowman's Toy Factory",
+		"locations": ["Toy Toy Factory - トイトイファクトリー", "Christmas Party without Santa - サンタレス・クリスマスパーティー", "Avatar Carousel - アバターカルーセル"]
+	},
+	{
+		"group": "Poppin' Jump - ",
+		"locations": ["Neon Purple - ネオンパープル", "Rich Gold - リッチゴールド"]
+	},
+	{
+		"group": "【Quest】Edo Citadel Redux - 復刻江戸城城下町",
+		"locations": ["Edo Citadel East - Re:エド城下 東", "Edo Citadel West - Re:エド城下 西"]
+	},
+	{
+		"group": "【Quest】Cradle of Shooting Stars Metekolebka - 流星の揺籠 メテコレプカ",
+		"locations": ["Oksteltov - オキステルトフ", "Questeltov - クエステルトフ"]
+	},
+	{
+		"group": "【Quest】World Festi-VR \"Core\" Windmill Town",
+		"locations": ["Harbor", "Clocktower"]
+	}
+]

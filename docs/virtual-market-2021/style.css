@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@namespace url("http://www.w3.org/1999/xhtml");
+
+dt {
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.5em;
+	padding-left: 0.5em;
+}
+
+li {
+	margin: 0.5em;
+}
+
+input {
+	transform: scale(2);
+	margin-right: 0.5em;
+}
+
+label::before {
+	padding-right: 0.2em;
+}
