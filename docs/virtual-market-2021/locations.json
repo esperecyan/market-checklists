@@ -24,6 +24,10 @@
 		"locations": ["Toy Toy Factory - トイトイファクトリー", "Christmas Party without Santa - サンタレス・クリスマスパーティー", "Avatar Carousel - アバターカルーセル"]
 	},
 	{
+		"group": "Edo Citadel Redux - 復刻江戸城城下町",
+		"locations": ["Edo Citadel - Re:エド城下", "Edo Hanamachi - Re:エド華町"]
+	},
+	{
 		"group": "Poppin' Jump - ",
 		"locations": ["Neon Purple - ネオンパープル", "Rich Gold - リッチゴールド"]
 	},
