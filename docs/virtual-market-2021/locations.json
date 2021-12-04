@@ -1,5 +1,9 @@
 [
 	{
+		"group": "Entrance",
+		"locations": ["Virtual Market 2021 Ent-LAN-ce"]
+	},
+	{
 		"group": "Parareal City - パラリアルシティ",
 		"locations": ["Parareal Akihabara - パラリアル秋葉原", "Parareal Shibuya - パラリアル渋谷"]
 	},
@@ -30,6 +34,14 @@
 	{
 		"group": "Poppin' Jump",
 		"locations": ["Neon Purple - ネオンパープル", "Rich Gold - リッチゴールド"]
+	},
+	{
+		"group": "EMISSION",
+		"locations": ["EMISSION"]
+	},
+	{
+		"group": "TOKYO MARUI Survival Game Field",
+		"locations": ["CONQUEST", "Island"]
 	},
 	{
 		"group": "【Quest】Edo Citadel Redux - 復刻江戸城城下町",
