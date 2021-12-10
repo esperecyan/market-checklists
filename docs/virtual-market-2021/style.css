@@ -38,7 +38,8 @@ body > * {
 
 main {
 	width: calc(1600px + var(--margin));
-	background: url("checksheet.jpg?20211210") top left no-repeat;
+	background: url("checksheet.jpg?20211210") top left no-repeat,
+		url("checksheet-quest.jpg") top calc(1400px + var(--margin)) left no-repeat;
 }
 
 dl {
@@ -95,6 +96,22 @@ dd label:hover {
 dd :checked + label {
 	background: url("../virtual-market-5/stamp1.png") center/contain no-repeat border-box;
 	border-color: transparent;
+}
+
+dd[data-group="【Quest】Edo Citadel Redux - 復刻江戸城城下町"] {
+	margin-top: 250px;
+}
+
+dd[data-group^="【Quest】"] {
+	margin-left: 442px;
+	--stamp-size: 170px;
+	--column: 210px;
+	--row: 227px;
+	--right-panel-left: 777px;
+}
+
+dd[data-group^="【Quest】"] :checked + label {
+	background-image: url("../virtual-market-5/stamp2.png");
 }
 
 /* チェックリスト */

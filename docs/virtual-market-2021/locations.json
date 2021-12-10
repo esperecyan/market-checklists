@@ -32,18 +32,6 @@
 		"locations": ["Neon Purple - ネオンパープル", "Rich Gold - リッチゴールド"]
 	},
 	{
-		"group": "Entrance",
-		"locations": ["Virtual Market 2021 Ent-LAN-ce"]
-	},
-	{
-		"group": "EMISSION",
-		"locations": ["EMISSION"]
-	},
-	{
-		"group": "TOKYO MARUI Survival Game Field",
-		"locations": ["CONQUEST", "Island"]
-	},
-	{
 		"group": "【Quest】Edo Citadel Redux - 復刻江戸城城下町",
 		"locations": ["Edo Citadel East - Re:エド城下 東", "Edo Citadel West - Re:エド城下 西"]
 	},
@@ -54,5 +42,17 @@
 	{
 		"group": "【Quest】World Festi-VR \"Core\" Windmill Town",
 		"locations": ["Harbor", "Clocktower"]
+	},
+	{
+		"group": "Entrance",
+		"locations": ["Virtual Market 2021 Ent-LAN-ce"]
+	},
+	{
+		"group": "EMISSION",
+		"locations": ["EMISSION"]
+	},
+	{
+		"group": "TOKYO MARUI Survival Game Field",
+		"locations": ["CONQUEST", "Island"]
 	}
 ]
