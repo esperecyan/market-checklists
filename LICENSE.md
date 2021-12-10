@@ -7,7 +7,7 @@
 - https://twitter.com/Virtual_Market_/status/1343067067990196225
 - https://twitter.com/Virtual_Market_/status/1343073107364380672
 - https://twitter.com/Virtual_Market_/status/1430380250739867649
-- https://twitter.com/Virtual_Market_/status/1468898033983438855
+- https://twitter.com/Virtual_Market_/status/1469247859153596423
 
 > ※このシートは二次配布OKです。是非お使いください！
 

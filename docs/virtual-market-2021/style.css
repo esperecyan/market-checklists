@@ -5,12 +5,12 @@
 
 :root {
 	--margin: 1em;
-	--padding-top: 137px;
-	--padding-left: 291px;
-	--stamp-size: 113px;
-	--column: 141px;
-	--row: 148px;
-	--right-panel-left: 587px;
+	--padding-top: 183px;
+	--padding-left: 388px;
+	--stamp-size: 150px;
+	--column: 187px;
+	--row: 197px;
+	--right-panel-left: 777px;
 }
 
 body {
@@ -38,7 +38,7 @@ body > * {
 
 main {
 	width: calc(1600px + var(--margin));
-	background: url("checksheet.jpg") top left no-repeat;
+	background: url("checksheet.jpg?20211210") top left no-repeat;
 }
 
 dl {
@@ -55,7 +55,7 @@ dd:first-of-type {
 
 li[data-location="Parareal Akihabara - パラリアル秋葉原"] {
 	position: absolute;
-	left: 878px;
+	left: 1166px;
 }
 
 dd[data-group="Almerea: The Town of New Beginnings - はじまりの街アルメア"],
