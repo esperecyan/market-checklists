@@ -1,25 +1,146 @@
 @charset "UTF-8";
 @namespace url("http://www.w3.org/1999/xhtml");
 
-dt {
-	font-weight: bold;
+/* チェックシート */
+
+:root {
+	--margin: 1em;
+	--padding-top: 137px;
+	--padding-left: 291px;
+	--stamp-size: 113px;
+	--column: 141px;
+	--row: 148px;
+	--right-panel-left: 587px;
+}
+
+body {
+	margin: unset;
+}
+
+dd {
+	margin-left: unset;
 }
 
 ul {
+	padding-left: unset;
+	margin: unset; /* Google Chrome */
+}
+
+h1,
+dt,
+dd input {
+	display: none;
+}
+
+body > * {
+	margin: var(--margin);
+}
+
+main {
+	width: calc(1600px + var(--margin));
+	background: url("checksheet.jpg") top left no-repeat;
+}
+
+dl {
+	margin: unset;
+}
+
+dd {
+	margin-left: var(--padding-left);
+}
+
+dd:first-of-type {
+	padding-top: var(--padding-top);
+}
+
+li[data-location="Parareal Akihabara - パラリアル秋葉原"] {
+	position: absolute;
+	left: 878px;
+}
+
+dd[data-group="Almerea: The Town of New Beginnings - はじまりの街アルメア"],
+dd[data-group="Valhalla of Iron Ravens - 鉄鴉の戦場バトルフィールドオブマキナ"] {
+	position: absolute;
+	margin-top: calc(-1 * var(--row));
+	left: var(--right-panel-left);
+}
+
+dd ul {
+	display: flex;
+}
+
+dd > ul > li {
+	width: var(--column);
+	height: var(--row);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+dd label {
+	color: transparent;
+	display: block;
+	width: var(--stamp-size);
+	height: var(--stamp-size);
+	border-radius: 50%;
+	border: solid 1em transparent;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+dd label:hover {
+	border-color: #FFAAAAAA;
+}
+
+dd :checked + label {
+	background: url("../virtual-market-5/stamp1.png") center/contain no-repeat border-box;
+	border-color: transparent;
+}
+
+/* チェックリスト */
+
+dt[data-group="Entrance"] {
+	margin-top: 50px;
+}
+
+dt[data-group="Entrance"],
+dt[data-group="Entrance"] ~ dt {
+	display: block;
+	font-weight: bold;
+}
+
+[data-group="Entrance"] ~ dd {
+	margin: 0 0 0 2.5em;
+}
+
+[data-group="Entrance"] ~ * ul {
 	list-style: none;
 	font-size: 1.5em;
 	padding-left: 0.5em;
+	display: block;
 }
 
-li {
+[data-group="Entrance"] ~ *  li {
 	margin: 0.5em;
+	width: unset;
+	height: unset;
+	display: block;
 }
 
-input {
+[data-group="Entrance"] ~ * input {
+	display: inline;
 	transform: scale(2);
 	margin-right: 0.5em;
 }
 
-label::before {
+[data-group="Entrance"] ~ * :is(input, input:checked) + label {
+	color: unset;
+	background: unset;
+	display: inline;
+	border-radius: unset;
+	border: unset;
+}
+
+[data-group="Entrance"] ~ * label::before {
 	padding-right: 0.2em;
 }
