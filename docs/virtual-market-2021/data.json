@@ -1,0 +1,27 @@
+{
+	"screenshots": [ {
+		"downloadFileName": {
+			"en": "Venue checksheet",
+			"ja": "ワールドチェックシート"
+		},
+		"downloadLinkLavel": {
+			"en": "Download Venue checksheet",
+			"ja": "ワールドチェックシートをダウンロード"
+		},
+		"y": 0,
+		"width": 1600,
+		"height": 1400
+	}, {
+		"downloadFileName": {
+			"en": "QuestWorldChecksheet",
+			"ja": "【Quest】ワールドチェックシート"
+		},
+		"downloadLinkLavel": {
+			"en": "Download QuestWorldChecksheet",
+			"ja": "【Quest】ワールドチェックシートをダウンロード"
+		},
+		"y": 1416,
+		"width": 1600,
+		"height": 920
+	} ]
+}

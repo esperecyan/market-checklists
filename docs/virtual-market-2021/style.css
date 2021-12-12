@@ -17,22 +17,22 @@ body {
 	margin: unset;
 }
 
-dd {
+main dd {
 	margin-left: unset;
 }
 
-ul {
+main ul {
 	padding-left: unset;
 	margin: unset; /* Google Chrome */
 }
 
-h1,
-dt,
-dd input {
+body > h1,
+main dt,
+main dd input {
 	display: none;
 }
 
-body > * {
+body > :not(div, dialog) {
 	margin: var(--margin);
 }
 
@@ -42,15 +42,15 @@ main {
 		url("checksheet-quest.jpg") top calc(1400px + var(--margin)) left no-repeat;
 }
 
-dl {
+main dl {
 	margin: unset;
 }
 
-dd {
+main dd {
 	margin-left: var(--padding-left);
 }
 
-dd:first-of-type {
+main dd:first-of-type {
 	padding-top: var(--padding-top);
 }
 
@@ -66,11 +66,11 @@ dd[data-group="Valhalla of Iron Ravens - 鉄鴉の戦場バトルフィールド
 	left: var(--right-panel-left);
 }
 
-dd ul {
+main dd ul {
 	display: flex;
 }
 
-dd > ul > li {
+main dd > ul > li {
 	width: var(--column);
 	height: var(--row);
 	display: flex;
@@ -78,7 +78,7 @@ dd > ul > li {
 	align-items: center;
 }
 
-dd label {
+main dd label {
 	color: transparent;
 	display: block;
 	width: var(--stamp-size);
@@ -89,11 +89,11 @@ dd label {
 	cursor: pointer;
 }
 
-dd label:hover {
+main dd label:hover {
 	border-color: #FFAAAAAA;
 }
 
-dd :checked + label {
+main dd :checked + label {
 	background: url("../virtual-market-5/stamp1.png") center/contain no-repeat border-box;
 	border-color: transparent;
 }
