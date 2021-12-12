@@ -1,1 +1,4 @@
 extends: '@esperecyan/eslint-config'
+parserOptions:
+    sourceType: module
+    ecmaVersion: 2022
