@@ -33,6 +33,8 @@ document.head.insertAdjacentHTML('beforeend', `
 `);
 
 const isJa = navigator.language.toLowerCase().startsWith('ja');
+document.body.lang = isJa ? 'ja' : 'en-US';
+document.getElementsByTagName('h1')[0].lang = 'ja';
 
 document.body.insertAdjacentHTML(
 	'afterbegin',

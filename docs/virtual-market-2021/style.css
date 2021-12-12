@@ -42,6 +42,10 @@ main {
 		url("checksheet-quest.jpg") top calc(1400px + var(--margin)) left no-repeat;
 }
 
+main:not(:lang("ja")) {
+	background-image: url("checksheet-en.jpg"), url("checksheet-quest-en.jpg");
+}
+
 main dl {
 	margin: unset;
 }
