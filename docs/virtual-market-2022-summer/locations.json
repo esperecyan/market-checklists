@@ -1,0 +1,50 @@
+[
+	{
+		"group": "Entrance",
+		"locations": ["Vket2022 summer Ent-LAN-ce"]
+	},
+	{
+		"group": "Company - 企業ワールド",
+		"locations": ["Parareal New York - パラリアルニューヨーク", "Parareal Osaka - パラリアル大阪"]
+	},
+	{
+		"group": "Virtual Market Classic - バーチャルマーケットClassic",
+		"locations": ["East", "West"]
+	},
+	{
+		"group": "VketPlaza -CyberMode-",
+		"locations": ["VIVID PARK", "NIGHT GARDEN"]
+	},
+	{
+		"group": "Casca-Acqua Falls - 豊滝の栄湖カスカアクア",
+		"locations": ["Dragonclimb Festival - 登龍祭", "Aquagift Festival - 漁獲祭"]
+	},
+	{
+		"group": "Kowloon Empire Ichiban Boulevard - 九龍帝国城下町　壱番街",
+		"locations": ["Casino - カジノ", "Theater - 劇場"]
+	},
+	{
+		"group": "Granvale Academy of Sorcerers - 魔法学園グランヴェール",
+		"locations": ["Fantasia - ファンタジア", "Nocturne - ノクターン"]
+	},
+	{
+		"group": "Poppin' Jump",
+		"locations": ["Lemon Squash", "Peach Shower"]
+	},
+	{
+		"group": "Everlasting Nightlife Quarter “Kuja Market“ - 常夜の歓楽街 九蛇之市",
+		"locations": ["Main street - 表通り", "Back street - 裏通り"]
+	},
+	{
+		"group": "Almerea: The Town of New Beginnings - はじまりの街　アルメア",
+		"locations": ["Journey’s Dawn - 旅立ちの朝", "Springtide   - 春風の船出"]
+	},
+	{
+		"group": "Vket Academy “Electro-charged School Festival!” - Vket学園 “電市祭“",
+		"locations": ["Day - 昼の部", "Night - 夜の部"]
+	},
+	{
+		"group": "VketSummerMall",
+		"locations": ["East", "West"]
+	}
+]

@@ -1,0 +1,15 @@
+{
+	"screenshots": [ {
+		"downloadFileName": {
+			"en": "Venue checksheet",
+			"ja": "ワールドチェックシート"
+		},
+		"downloadLinkLavel": {
+			"en": "Download Venue checksheet",
+			"ja": "ワールドチェックシートをダウンロード"
+		},
+		"y": 0,
+		"width": 600,
+		"height": 1350
+	} ]
+}

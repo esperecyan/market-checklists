@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@namespace url("http://www.w3.org/1999/xhtml");
+
+dt {
+	display: block;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 0 2.5em;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.5em;
+	padding-left: 0.5em;
+	display: block;
+}
+
+li {
+	margin: 0.5em;
+	width: unset;
+	height: unset;
+	display: block;
+}
+
+input {
+	display: inline;
+	transform: scale(2);
+	margin-right: 0.5em;
+}
+
+:is(input, input:checked) + label {
+	color: unset;
+	background: unset;
+	display: inline;
+	border-radius: unset;
+	border: unset;
+}
+
+label::before {
+	padding-right: 0.2em;
+}
