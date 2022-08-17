@@ -3,5 +3,8 @@
 	"devDependencies": {
 		"@esperecyan/eslint-config": "^1.1.0",
 		"eslint": "^8.4.1"
+	},
+	"scripts": {
+		"start": "php -S localhost:8080 -t docs"
 	}
 }
