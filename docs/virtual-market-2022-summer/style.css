@@ -1,43 +1,113 @@
 @charset "UTF-8";
 @namespace url("http://www.w3.org/1999/xhtml");
 
-dt {
+:root {
+	--width: 2350px;
+	--height: 1400px;
+	--padding-top: 191px;
+	--padding-left: 408px;
+	--column-left: 761px;
+	--column-middle: 746px;
+	--row: 179px;
+	--row-gap: 19px;
+	--stamp-size: 150px;
+	--stamp-gap: 37px;
+}
+
+dd[data-group="Entrance"] {
+	grid-column: span 3;
+}
+
+dd[data-group="Company - 企業ワールド"],
+dd[data-group="Granvale Academy of Sorcerers - 魔法学園グランヴェール"],
+dd[data-group="Almerea: The Town of New Beginnings - はじまりの街　アルメア"] {
+	grid-column: span 2;
+}
+
+li[data-location="Parareal Osaka - パラリアル大阪"] {
+	position: relative;
+	left: calc(var(--column-left) - var(--stamp-size) - var(--stamp-gap));
+}
+
+dd[data-group="Granvale Academy of Sorcerers - 魔法学園グランヴェール"] ~ dd :checked + label {
+	background-image: url("../virtual-market-5/stamp2.png");
+}
+
+body {
+	margin: unset;
+}
+
+main dd {
+	margin-left: unset;
+}
+
+main ul {
+	padding-left: unset;
+	margin: unset; /* Google Chrome */
+}
+
+body > h1,
+main dt,
+main dd input {
+	display: none;
+}
+
+body > :not(div, dialog) {
+	margin: 1em;
+}
+
+main {
+	width: var(--width);
+	height: var(--height);
+	background: url("checksheet.jpg") top left/contain no-repeat;
+}
+
+main:not(:lang("ja")) {
+	background-image: url("checksheet-en.jpg");
+}
+
+main dl {
+	margin: unset;
+	padding-top: var(--padding-top);
+	padding-left: var(--padding-left);
+	display: grid;
+	grid-template-columns: var(--column-left) var(--column-middle) auto;
+	grid-auto-rows: var(--row);
+	row-gap: var(--row-gap);
+}
+
+main dd {
+	display: flex;
+	align-items: center;
+}
+
+main dd > ul {
+	display: flex;
+	gap: var(--stamp-gap);
+}
+
+main dd > ul > li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main dd label {
+	color: transparent;
 	display: block;
-	font-weight: bold;
+	width: var(--stamp-size);
+	height: var(--stamp-size);
+	border-radius: 50%;
+	border: solid 1em transparent;
+	box-sizing: border-box;
+	cursor: pointer;
 }
 
-dd {
-	margin: 0 0 0 2.5em;
+main dd label:hover {
+	border-color: #FFAAAAAA;
 }
 
-ul {
-	list-style: none;
-	font-size: 1.5em;
-	padding-left: 0.5em;
-	display: block;
-}
-
-li {
-	margin: 0.5em;
-	width: unset;
-	height: unset;
-	display: block;
-}
-
-input {
-	display: inline;
-	transform: scale(2);
-	margin-right: 0.5em;
-}
-
-:is(input, input:checked) + label {
-	color: unset;
-	background: unset;
-	display: inline;
-	border-radius: unset;
-	border: unset;
-}
-
-label::before {
-	padding-right: 0.2em;
+main dd :checked + label {
+	background: url("../virtual-market-5/stamp1.png") center/contain no-repeat border-box;
+	border-color: transparent;
 }

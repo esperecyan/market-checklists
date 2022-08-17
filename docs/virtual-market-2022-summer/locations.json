@@ -12,6 +12,10 @@
 		"locations": ["East", "West"]
 	},
 	{
+		"group": "Poppin' Jump",
+		"locations": ["Lemon Squash", "Peach Shower"]
+	},
+	{
 		"group": "VketPlaza -CyberMode-",
 		"locations": ["VIVID PARK", "NIGHT GARDEN"]
 	},
@@ -26,10 +30,6 @@
 	{
 		"group": "Granvale Academy of Sorcerers - 魔法学園グランヴェール",
 		"locations": ["Fantasia - ファンタジア", "Nocturne - ノクターン"]
-	},
-	{
-		"group": "Poppin' Jump",
-		"locations": ["Lemon Squash", "Peach Shower"]
 	},
 	{
 		"group": "Everlasting Nightlife Quarter “Kuja Market“ - 常夜の歓楽街 九蛇之市",

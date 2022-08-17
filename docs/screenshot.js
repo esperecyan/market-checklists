@@ -59,8 +59,12 @@ document.body.addEventListener('click', async function (event) {
 		case 'screenshot':
 			dialog.showModal();
 			for (let i = 0; i < screenshots.length; i++) {
+				const previousScale = main.style.scale;
+				main.style.scale = '';
 				/** @type {HTMLCanvasElement} */
 				const canvas = await html2canvas(main, screenshots[i]);
+				main.style.scale = previousScale;
+
 				canvas.toBlob(function (blob) {
 					downloadLinks[i].href = URL.createObjectURL(blob);
 					const { en, ja } = screenshots[i].downloadFileName;
