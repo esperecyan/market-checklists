@@ -45,6 +45,6 @@
 	},
 	{
 		"group": "VketSummerMall",
-		"locations": ["East", "West"]
+		"locations": ["VketSummerMall East", "VketSummerMall West"]
 	}
 ]
