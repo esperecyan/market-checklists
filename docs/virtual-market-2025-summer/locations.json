@@ -1,23 +1,23 @@
 [
 	{
 		"group": "エントランス",
-		"locations": ["エントランス"]
+		"locations": ["エントランス", "Entrance"]
 	},
 	{
 		"group": "Company - 企業ワールド",
-		"locations": ["パラリアル東京", "パラリアルハワイ"]
+		"locations": ["Parareal Tokyo - パラリアル東京", "Parareal Hawaii - パラリアルハワイ"]
 	},
 	{
-		"group": "異常物体研究所 - Incident A",
+		"group": "Anomalous Research Lab - Incident A - 異常物体研究所 - Incident A",
 		"locations": ["Awakening", "Aftermath"]
 	},
 	{
-		"group": "Vketフォーミュラ.3879",
-		"locations": ["-栄光-", "-陰謀-"]
+		"group": "Vket Formula .3879 - Vketフォーミュラ.3879",
+		"locations": ["Glory - -栄光-", "Deception - -陰謀-"]
 	},
 	{
-		"group": "架空植物園エクソプラント",
-		"locations": ["創造の種", "想像の花"]
+		"group": "Hypothetical Garden Exoplant - 架空植物園エクソプラント",
+		"locations": ["Seed of Creation - 創造の種", "Flower of Imagination - 想像の花"]
 	},
 	{
 		"group": "The Alter Vista Midnight",
@@ -28,11 +28,11 @@
 		"locations": ["Sugar", "Milk"]
 	},
 	{
-		"group": "森聖街 ヤポプエト",
-		"locations": ["中願の秋朝", "中願の秋夜"]
+		"group": "Holyglade Hamlet Yapopuheto - 森聖街 ヤポプエト",
+		"locations": ["Vow of the Autumn Sun - 中願の秋朝", "Vow of the Autumn Moon - 中願の秋夜"]
 	},
 	{
-		"group": "ピクセリカ",
-		"locations": ["アクションシティ", "アドベンチャータウン"]
+		"group": "Pixelica - ピクセリカ",
+		"locations": ["Action City - アクションシティ", "Adventure Town - アドベンチャータウン"]
 	}
 ]
