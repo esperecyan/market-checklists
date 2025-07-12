@@ -1,0 +1,38 @@
+[
+	{
+		"group": "エントランス",
+		"locations": ["エントランス"]
+	},
+	{
+		"group": "Company - 企業ワールド",
+		"locations": ["パラリアル東京", "パラリアルハワイ"]
+	},
+	{
+		"group": "異常物体研究所 - Incident A",
+		"locations": ["Awakening", "Aftermath"]
+	},
+	{
+		"group": "Vketフォーミュラ.3879",
+		"locations": ["-栄光-", "-陰謀-"]
+	},
+	{
+		"group": "架空植物園エクソプラント",
+		"locations": ["創造の種", "想像の花"]
+	},
+	{
+		"group": "The Alter Vista Midnight",
+		"locations": ["Crescent Calm", "Peak Passion"]
+	},
+	{
+		"group": "Sweet×2 Tea Party Rebake",
+		"locations": ["Sugar", "Milk"]
+	},
+	{
+		"group": "森聖街 ヤポプエト",
+		"locations": ["中願の秋朝", "中願の秋夜"]
+	},
+	{
+		"group": "ピクセリカ",
+		"locations": ["アクションシティ", "アドベンチャータウン"]
+	}
+]
