@@ -1,7 +1,7 @@
 [
 	{
-		"group": "エントランス",
-		"locations": ["エントランス", "Entrance"]
+		"group": "Entrance - エントランス",
+		"locations": ["Entrance - エントランス"]
 	},
 	{
 		"group": "Company - 企業ワールド",
