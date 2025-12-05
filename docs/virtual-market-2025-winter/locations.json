@@ -1,0 +1,42 @@
+[
+	{
+		"group": "Entrance - エントランス",
+		"locations": ["Parareal Central Gates of Beginnings"]
+	},
+	{
+		"group": "Company - 企業ワールド",
+		"locations": ["Parareal Shinjuku - パラリアル新宿", "Parareal Singapore - パラリアルシンガポール"]
+	},
+	{
+		"group": "Kowloon Empire - Void Alley - 九龍帝国 欠番街",
+		"locations": ["Orderless - 無秩序", "Chaos - 混沌"]
+	},
+	{
+		"group": "Nostalgia Storybook - 絵本世界ノスタルジア",
+		"locations": ["The Diva and ██'s Wild Adventure - 歌姫と██の不思議旅", "The Great pirates' Name echo the Skies - 空に名を馳せた大海賊"]
+	},
+	{
+		"group": "Dragon's Tradepost - 龍の都の交易所",
+		"locations": ["Carnogaddon - 巨犀カルノガドン", "Aggitusk - 巨鰐アギトクス"]
+	},
+	{
+		"group": "Vket MAAART! - ぶいけっとまーと！",
+		"locations": ["Fresh - フレッシュ", "Juicy - ジューシー"]
+	},
+	{
+		"group": "Vket Formula .3879 Grand Finals! - Vketフォーミュラ.3879 グランドファイナル！",
+		"locations": ["Triumph - -制覇-", "Ambition - -渇望-"]
+	},
+	{
+		"group": "Hypothetical Garden Exoplant -Autumn- - 架空植物園エクソプラント -秋-",
+		"locations": ["Burgeon of Creativity - 創造の萌芽", "Fruit of Imagination - 想像の果実"]
+	},
+	{
+		"group": "YOUtopia",
+		"locations": ["Rising Sun St. - 日乃出街", "Wild we-St. - ワイルドウエ・ストリート"]
+	},
+	{
+		"group": "VketPlaza -Quest Mode-",
+		"locations": ["Lake Village - レイクシティー", "Volcano City - ボルケーノシティー"]
+	}
+]
