@@ -1,0 +1,42 @@
+[
+	{
+		"group": "Entrance - エントランス",
+		"locations": ["Parareal Central Ignition Point - 着火点 -"]
+	},
+	{
+		"group": "Company - 企業ワールド",
+		"locations": ["Parareal Akihabara - パラリアル秋葉原", "Parareal Broadway - パラリアルブロードウェイ"]
+	},
+	{
+		"group": "Deep Mist",
+		"locations": ["First Visit", "Final Harvest"]
+	},
+	{
+		"group": "Ohh-Edo! MECHANICA - オーエド・メカニカ",
+		"locations": ["Capital of Inu - 御犬の都", "Land of Neko - 御猫の町"]
+	},
+	{
+		"group": "VOLTAGER",
+		"locations": ["EX-Volcano", "Mystica-Jungle", "Hyper-Galaxy"]
+	},
+	{
+		"group": "ポピー横丁 Poppy Street - ポピー横丁 たのしいVket商店街",
+		"locations": ["Dusk Call - 宵の口", "Pale Dawn - 朝ぼらけ"]
+	},
+	{
+		"group": "Cocoon Art Aquarium Redive - 幻想コロニー コクーン水族美術館 Redive",
+		"locations": ["Wave - ウェーブ", "Pulse - パルス", "Flow - フロウ"]
+	},
+	{
+		"group": "Argdella Rediscovered - 古代文明アーグデーラ-再巡-",
+		"locations": ["Voyagers", "Memento"]
+	},
+	{
+		"group": "SKY PARK-Renew",
+		"locations": ["Daylight - デイライト", "Moonlit - ムーンリト"]
+	},
+	{
+		"group": "The Alter Vista: Focus",
+		"locations": ["1F_Primal", "2F_Actual", "3F_Ideal"]
+	}
+]
